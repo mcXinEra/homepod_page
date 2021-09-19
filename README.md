@@ -1,6 +1,13 @@
 # homepod_page
 
-配合[homepod](https://github.com/youranreus/homepod)食用的个人页面。
+## 感谢 [季悠然](https://github.com/youranreus)
+
+## 请移步 https://github.com/youranreus/homepod_page
+
+---
+
+## 配合[homepod](https://github.com/youranreus/homepod)食用的个人页面。
+
 
 ### 食用指南
 
