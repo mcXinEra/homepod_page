@@ -13,21 +13,21 @@
         <h3>
           <i :class="'fa '+profile.characteristic[0].icon" aria-hidden="true"
              style="margin-right: 5px;"></i>{{ profile.characteristic[0].title }}
-          <br/>Made in China
+          <br/>一个很酷的MC服务器项目
         </h3>
       </div>
       <div class="sub-item" :style="'color:#fff; background: '+profile.characteristic[1].color">
         <h3>
           <i :class="'fa '+profile.characteristic[1].icon" aria-hidden="true"
              style="margin-right: 5px;"></i>{{ profile.characteristic[1].title }}
-          <br/>中 粤 日 英 德
+          <br/>不忘初心，砥砺前行
         </h3>
       </div>
       <div class="sub-item" :style="'color:#fff; background: '+profile.characteristic[2].color">
         <h3>
           <i :class="'fa '+profile.characteristic[2].icon" aria-hidden="true"
              style="margin-right: 5px;"></i>{{ profile.characteristic[2].title }}
-          <br/>简称二次元
+          <br/>内心只有一个声音
         </h3>
       </div>
     </div>
@@ -165,7 +165,7 @@ export default {
       that.posts = that.$store.state.articles;
       if (that.posts === undefined || that.posts.length === 0) {
         console.log('yo');
-        that.$http.get(this.$store.state.api + '/X/getBlogRSS?url=https://gundam.exia.xyz/feed&type=force').then((response) => {
+        that.$http.get(this.$store.state.api + '/X/getBlogRSS?url=https://www.mcxin.top/feed&type=force').then((response) => {
           that.posts = response.data
           that.$store.commit('storeArts', response.data);
           that.msg = 'ないよ~'
