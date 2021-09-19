@@ -7,10 +7,10 @@
     </div>
     <div id="home-r">
       <div>
-        <h3><span @click="hi(1)" @mouseover="hi(0)" class="animate__animated animate__wobble">{{ emoji }}</span> Hi,
-          This is {{ UserMeta.username }}</h3>
+        <h3><span @click="hi(1)" @mouseover="hi(0)" class="animate__animated animate__wobble">{{ emoji }}</span> 你好,
+          这里是 {{ UserMeta.username }}</h3>
         <p>{{ UserMeta.detail }}</p>
-        <button id="more" @click="more">More</button>
+        <button id="more" @click="more">更多</button>
       </div>
     </div>
 
@@ -24,9 +24,9 @@ export default {
   data() {
     return {
       UserMeta: {
-        avatar: 'https://sdn.geekzu.org/avatar/87e0f8d2f0f70987061cec6376cb7f97?s=200&r=G&d=',
-        username: 'Youranreus',
-        detail: 'Ich bin ein Student von SZTU, Learning Computer Science. 今、日本语とドイツ語を勉强しています！',
+        avatar: 'https://sdn.geekzu.org/avatar/d42da1c33b856e2314219d0439dcdcde?s=200&r=G&d=',
+        username: 'JStar',
+        detail: '⭐胸有大海星辰，不负青春。⭐ 🏔鹰隼试翼，风尘翕张。🌄 这里是景星的个人主页。',
         footer: ''
       },
       emoji: '👋'
