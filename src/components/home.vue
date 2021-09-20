@@ -25,19 +25,19 @@ export default {
     return {
       UserMeta: {
         avatar: 'https://sdn.geekzu.org/avatar/d42da1c33b856e2314219d0439dcdcde?s=200&r=G&d=',
-        username: 'JStar',
-        detail: '⭐胸有大海星辰，不负青春⭐ 🏔鹰隼试翼，风尘翕张🌄 欢迎来到景星的个人主页。',
+        username: '景星',
+        detail: '⭐胸有大海星辰，不负青春⭐\n🏔鹰隼试翼，风尘翕张🌄\n欢迎来到景星的个人主页。',
         footer: ''
       },
-      emoji: '👋'
+      emoji: '✨'
     }
   },
   methods: {
     hi(method = 0) {
       if (method === 0)
-        this.emoji = '🤞';
+        this.emoji = '🎇';
       else
-        this.emoji = '👋';
+        this.emoji = '✨';
     },
     more() {
       this.$router.push({path: 'about'});
