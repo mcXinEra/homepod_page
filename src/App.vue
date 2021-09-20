@@ -85,4 +85,9 @@ export default {
 .right {
   float: right;
 }
+
+.text-wrapper {
+  white-space: pre-wrap;
+}
+
 </style>
