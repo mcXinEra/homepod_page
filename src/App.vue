@@ -28,9 +28,14 @@ export default {
   font-family: 'Alata';
   src: url('assets/Alata.ttf');
 }
+@font-face {
+  font-family: 'LXGWWenKai';
+  src: url('assets/LXGWWenKai.ttf');
+}
+
 
 #wrap {
-  font-family: "微软雅黑", "Alata", Georgia, serif;
+  font-family: "微软雅黑","LXGWWenKai","Alata", Georgia, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
