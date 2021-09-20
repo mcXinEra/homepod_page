@@ -26,11 +26,11 @@ export default {
 <style>
 @font-face {
   font-family: 'Alata';
-  src: url('assets/Alata.ttf');
+  src: url('https://cdn.jsdelivr.net/gh/jstar0/homepod_page@master/src/assets/Alata.ttf');
 }
 @font-face {
   font-family: 'LXGWWenKai';
-  src: url('assets/LXGWWenKai.ttf');
+  src: url('https://cdn.jsdelivr.net/gh/jstar0/homepod_page@master/src/assets/LXGWWenKai.ttf');
 }
 
 
@@ -68,7 +68,7 @@ export default {
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-position: center 0;
-  background-image: url(assets/bk.png);
+  background-image: url(https://cdn.jsdelivr.net/gh/jstar0/homepod_page@master/src/assets/bk.png);
   opacity: 0.03;
 }
 
