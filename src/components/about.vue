@@ -1,8 +1,8 @@
 <template>
   <div id="about">
     <div class="item" id="readme" @click="go(profile.README.link)">
-      <div class="item-content">
-        <h3>README</h3>
+      <div class="item-content text-wrapper">
+        <h3>关于我</h3>
         <p>
           {{ profile.README.content }}
         </p>
