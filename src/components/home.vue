@@ -7,10 +7,10 @@
     </div>
     <div id="home-r">
       <div>
-        <h3><span @click="hi(1)" @mouseover="hi(0)" class="animate__animated animate__wobble">{{ emoji }}</span> 你好,
-          这里是 {{ UserMeta.username }}</h3>
+        <h3><span @click="hi(1)" @mouseover="hi(0)" class="animate__animated animate__wobble">{{ emoji }}</span> 您好,
+          我是 {{ UserMeta.username }}</h3>
         <p>{{ UserMeta.detail }}</p>
-        <button id="more" @click="more">更多</button>
+        <button id="more" align="center" @click="more">More</button>
       </div>
     </div>
 
