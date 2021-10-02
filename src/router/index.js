@@ -5,19 +5,19 @@ const routes = [
     path: '/',
     name: 'home',
     component: () => import('../components/home.vue'),
-    meta: {title:'Homepod',keyword:'homepod',description:'homepod'},
+    meta: {title:'Home | 景星主页',keyword:'景星主页',description:'景星个人主页'},
   },
   {
     path: '/about',
     name: 'about',
     component: () => import('../components/about.vue'),
-    meta: {title:'About',keyword:'homepod',description:'homepod'},
+    meta: {title:'About | 景星主页',keyword:'景星主页',description:'景星个人主页'},
   },
   {
     path: '/system',
     name: 'system',
     component: () => import('../components/system.vue'),
-    meta: {title:'System Info',keyword:'homepod',description:'homepod'},
+    meta: {title:'Info | 景星主页',keyword:'景星主页',description:'景星个人主页'},
   }
 ]
 
