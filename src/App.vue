@@ -23,11 +23,12 @@ export default {
   }
 }
 </script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap" rel="stylesheet"> 
+
 <style>
-@font-face {
-  font-family: 'Alata';
-  src: url('https://cdn.jsdelivr.net/gh/jstar0/homepod_page@master/src/assets/Alata.ttf');
-}
 @font-face {
   font-family: 'LXGWWenKai';
   src: url('https://cdn.jsdelivr.net/gh/jstar0/homepod_page@master/src/assets/LXGWWenKai.ttf');
@@ -35,7 +36,7 @@ export default {
 
 
 #wrap {
-  font-family: "LXGWWenKai", "Alata", Georgia, serif;
+  font-family: "LXGWWenKai", Georgia, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
