@@ -70,7 +70,7 @@ export default {
   -o-background-size: cover;
   background-position: center 0;
   background-image: url(https://cdn.jsdelivr.net/gh/jstar0/homepod_page/src/assets/Background.png);
-  opacity: 0.10;
+  opacity: 0.05;
 }
 
 .clear, .clear::after, .clear::before {
