@@ -32,7 +32,7 @@ export default {
 
 
 #wrap {
-  font-family: 'Noto Sans TC', sans-serif, 微软雅黑, Georgia, serif;
+  font-family: 'Poppins', 'Noto Sans SC', sans-serif, 微软雅黑, Georgia, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
