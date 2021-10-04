@@ -24,10 +24,6 @@ export default {
 }
 </script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap" rel="stylesheet"> 
-
 <style>
 @font-face {
   font-family: 'LXGWWenKai';
@@ -36,7 +32,7 @@ export default {
 
 
 #wrap {
-  font-family: 'Noto Sans SC', sans-serif, "LXGWWenKai", Georgia, serif;
+  font-family: 'Noto Sans TC', sans-serif, 微软雅黑, Georgia, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
