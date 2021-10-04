@@ -415,7 +415,7 @@ a:link, a:visited {
 }
 
 #links .sub-item div h3 {
-  font-family: "LXGWWenKai", Georgia, serif;
+  font-family: 'Poppins', 'Noto Sans SC', sans-serif, 微软雅黑, Georgia, serif;
   margin: 8px 0 0;
   font-weight: 400;
   color: #fff;
