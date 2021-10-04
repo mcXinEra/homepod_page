@@ -69,8 +69,8 @@ export default {
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-position: center 0;
-  background-image: url(https://cdn.jsdelivr.net/gh/jstar0/homepod_page@master/src/assets/bk.png);
-  opacity: 0.03;
+  background-image: url(https://cdn.jsdelivr.net/gh/jstar0/homepod_page/src/assets/Background.png);
+  opacity: 0.10;
 }
 
 .clear, .clear::after, .clear::before {
