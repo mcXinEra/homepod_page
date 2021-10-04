@@ -113,7 +113,7 @@ export default {
 }
 
 #more {
-  font-family: "Alata", Georgia, serif;
+  font-family: 'Noto Sans SC', sans-serif, Georgia, serif;
   background: rgba(0, 0, 0, 0);
   color: rgba(0, 119, 255, 0.8);
   padding: 6px 21px;
