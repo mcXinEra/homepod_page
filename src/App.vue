@@ -36,7 +36,7 @@ export default {
 
 
 #wrap {
-  font-family: "LXGWWenKai", Georgia, serif;
+  font-family: 'Noto Sans SC', sans-serif, "LXGWWenKai", Georgia, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
