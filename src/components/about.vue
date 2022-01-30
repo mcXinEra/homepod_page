@@ -27,7 +27,7 @@
         <h3>
           <i :class="'fa '+profile.characteristic[2].icon" aria-hidden="true"
              style="margin-right: 5px;"></i>{{ profile.characteristic[2].title }}
-          <br/>内心只有一个声音
+          <br/>内心要只有一个声音
         </h3>
       </div>
     </div>
