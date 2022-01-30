@@ -60,7 +60,7 @@ export default {
   -o-background-size: cover;
   background-position: center 0;
   background-image: url(https://cdn.jsdelivr.net/gh/mcXinEra/Resource/JS/bkg.png);
-  opacity: 0.10;
+  opacity: 0.20;
 }
 
 .clear, .clear::after, .clear::before {
