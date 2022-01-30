@@ -1,4 +1,4 @@
-# homepod_page
+# homepod_page - 它来适配移动端！
 
 ## 感谢 [季悠然](https://github.com/youranreus)
 
